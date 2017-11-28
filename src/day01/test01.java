@@ -8,7 +8,8 @@ public class test01 {
 		System.out.println("11.28");
 		System.out.println("可以上传代码喽 ^-^");
 		System.out.println("并不是乱码！");
-		System.out.println("cs:测试哟！");
+		System.out.println("从网页下载到电脑上。");
+		System.out.println("add from PC");
 	}
 
 }
