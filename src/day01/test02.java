@@ -5,6 +5,6 @@ public class test02 {
 		System.out.println("today is 2017.11.29");
 		System.out.println("remove");
 		System.out.println("add from jsevenk??");
-		System.out.println("kkk");
+		System.out.println("okkk");
 	}
 }
