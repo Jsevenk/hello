@@ -7,5 +7,6 @@ public class test02 {
 		System.out.println("add from jsevenk??");
 		System.out.println("okkk");
 		System.out.println("ÖÜÎå");
+		System.out.println("monday");
 	}
 }
