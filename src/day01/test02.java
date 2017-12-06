@@ -8,5 +8,6 @@ public class test02 {
 		System.out.println("okkk");
 		System.out.println("ÖÜÎå");
 		System.out.println("monday");
+		System.out.println("wen");
 	}
 }
