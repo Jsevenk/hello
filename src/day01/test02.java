@@ -9,5 +9,6 @@ public class test02 {
 		System.out.println("ÖÜÎå");
 		System.out.println("monday");
 		System.out.println("wen");
+		System.out.println("go back home for test");
 	}
 }
