@@ -5,5 +5,6 @@ public class test3 {
 		System.out.println("字体?");
 		System.out.println("上传可以吗?");
 		System.out.println("1.7切换成功!");
+		System.out.println("commit");
 	}
 }
