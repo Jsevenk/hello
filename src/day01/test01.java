@@ -6,6 +6,7 @@ public class test01 {
 		// TODO Auto-generated method stub
 		System.out.println("ok");
 		System.out.println("11.28");
+		System.out.println("可以上传代码了 ^-^");
 	}
 
 }
