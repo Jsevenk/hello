@@ -6,7 +6,8 @@ public class test01 {
 		// TODO Auto-generated method stub
 		System.out.println("ok");
 		System.out.println("11.28");
-		System.out.println("¿ÉÒÔÉÏ´«´úÂëÁË ^-^");
+		System.out.println("å¯ä»¥ä¸Šä¼ ä»£ç å–½ ^-^");
+		System.out.println("å¹¶ä¸æ˜¯ä¹±ç ï¼");
 	}
 
 }
