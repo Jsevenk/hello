@@ -4,7 +4,8 @@ public class test06 {
 
 	public static void main(String[] args) {
 		System.out.println("change the computer!!");
-		System.out.println("¼Ü¹¹Ê¦ÊÓÆµ¿´ÍêÂò¼üÅÌÅ¶£¡£¡");
+		System.out.println("ï¿½Ü¹ï¿½Ê¦ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("test from home");
 	}
 
 }
