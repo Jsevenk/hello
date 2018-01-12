@@ -9,6 +9,6 @@ public class test04 {
 		map.put("1", "v");
 		map.put("2", "c");
 		map.put("3", "x");
-		
+		System.out.println("mapµÄ±éÀú");
 	}
 }
