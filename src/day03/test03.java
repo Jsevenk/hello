@@ -14,7 +14,7 @@ public class test03 {
 		DecimalFormat df=new DecimalFormat("0.00");
 		df.format(7.0/9);
 		System.out.println(df.format(7.0/9));
-		
+		//DecimalFormat的返回值是String
 		
 		Map<String, Integer> map = new TreeMap<String, Integer>();
         map.put("a", 6);
