@@ -6,5 +6,6 @@ public class test05 {
 		System.out.println("Friday");
 		System.out.println("First");
 		System.out.println("编码格式问题，不仅仅是内容，还有文件的格式");
+		System.out.println("1111");
 	}
 }
