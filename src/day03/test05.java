@@ -5,7 +5,8 @@ public class test05 {
 		System.out.println("It's no time to waste");
 		System.out.println("Friday");
 		System.out.println("First");
-		System.out.println("±àÂë¸ñÊ½ÎÊÌâ£¬²»½ö½öÊÇÄÚÈİ£¬»¹ÓĞÎÄ¼şµÄ¸ñÊ½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½İ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ä¸ï¿½Ê½");
 		System.out.println("1111");
+		
 	}
 }
