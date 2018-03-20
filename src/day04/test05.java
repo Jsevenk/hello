@@ -22,6 +22,25 @@ public class test05 {
         	System.out.println("key:"+i);
             System.out.println("value:"+map.get(i));  
         }
+        System.out.println("===========================");
+        System.out.println("keySet是怎么遍历的？");
+        Map<String,String> map1=new HashMap<String,String>();
+        map1.put("one", "1");
+        map1.put("two", "2");
+        map1.put("three", "3");
+        map1.put("four", "4");
+        map1.put("five", "5");
+        map1.put("six", "6");
+        for(String str:map1.keySet()){
+        	System.out.println("key:"+str);
+            System.out.println("value:"+map1.get(str));
+        }
+//        网上的结论：
+//        Hashtable.keySet()          降序
+//        TreeMap.keySet()            升序
+//        HashMap.keySet()            乱序
+//        LinkedHashMap.keySet()      原序
+        System.out.println("hashMap的keySet是乱序的");
 	}
 
 }
