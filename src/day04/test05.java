@@ -1,6 +1,7 @@
 package day04;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
@@ -41,6 +42,29 @@ public class test05 {
 //        HashMap.keySet()            乱序
 //        LinkedHashMap.keySet()      原序
         System.out.println("hashMap的keySet是乱序的");
+        System.out.println("===========================");
+        System.out.println("map数据的删除");
+        //推荐使用：效率高,以后一定要使用此种方式
+        Iterator iter = map1.entrySet().iterator();
+        while (iter.hasNext()) {
+            Map.Entry entry = (Map.Entry) iter.next();
+            Object key = entry.getKey();
+            Object val = entry.getValue();
+            System.out.println(key+  ":"  + val);
+            if(entry.getValue().equals("2")){
+                System.out.println("删除");
+                iter.remove();
+            }
+        }
+        System.out.println("删除后遍历");
+        for(String str:map1.keySet()){
+        	System.out.println("key:"+str);
+            System.out.println("value:"+map1.get(str));
+        }
+        //js遍历map
+/*        for(var key in map){
+        	  console.log("属性：" + key + ",值：" + map[key]);
+        }*/
 	}
 
 }
