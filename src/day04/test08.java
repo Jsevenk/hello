@@ -32,7 +32,8 @@ public class test08 {
 		System.out.println(name2);
 		System.out.println("============================");
 		
-		
+		/*js加密		encodeURIComponent(value)	
+		js解密		java.net.URLDecoder.decode(value,"UTF-8")*/
 		
 	}
 
