@@ -8,5 +8,6 @@ public class test05 {
 		System.out.println("�����ʽ���⣬�����������ݣ������ļ��ĸ�ʽ");
 		System.out.println("1111");
 		System.out.println("...");
+		System.out.println("Too busy");
 	}
 }
