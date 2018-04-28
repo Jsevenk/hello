@@ -1,5 +1,7 @@
 package day03;
 
+import java.net.Socket;
+
 public class test05 {
 	private void mian() {
 		System.out.println("It's no time to waste");
@@ -9,5 +11,7 @@ public class test05 {
 		System.out.println("1111");
 		System.out.println("...");
 		System.out.println("Too busy");
+		//Socket
+//		IntBuffer     nio 的  buffer
 	}
 }
