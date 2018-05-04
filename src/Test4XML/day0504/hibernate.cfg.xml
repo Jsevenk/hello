@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"file:///c:/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+    <!--Tomcat config-->
+<!-- 	<property name="dialect">org.hibernate.dialect.MySQLDialect</property> -->
+<!-- 	<property name="connection.driver_class">com.mysql.jdbc.Driver</property> -->
+<!-- 	<property name="hibernate.connection.url">jdbc:mysql://192.168.1.18:3306/wjwsso?useOldAliasMetadataBehavior=true</property> -->
+<!-- 	<property name="hibernate.connection.username">root</property> -->
+	<property name="dialect">
+		org.hibernate.dialect.Oracle9Dialect
+	</property>
+	<property name="connection.driver_class">
+		oracle.jdbc.driver.OracleDriver
+	</property>
+	<property name="hibernate.connection.url">
+		jdbc:oracle:thin:@//192.168.1.28:1521/pdborcl
+	</property>
+	 <!--<property name="hibernate.connection.url">jdbc:oracle:thin:@127.0.0.1:1521:orcl</property> -->
+	<property name="hibernate.connection.username">
+		hzsq_creditunion
+	</property>
+	<property name="hibernate.connection.password">123456</property>
+	<!-- 设置Hibernate的缓存接口类，这个类在Hibernate包中 -->
+	<property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+	<!-- 是否使用查询缓存 -->
+	<property name="hibernate.cache.use_query_cache">false</property>
+	<property name="hibernate.use_outer_join">auto</property>
+	<!-- 数据库语句显示到控制台 -->
+	<property name="show_sql">true</property>
+	<!-- configuration pool via c3p0 连接池-->
+	<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+	<property name="hibernate.c3p0.acquire_increment">2</property>
+	<property name="hibernate.c3p0.idle_test_period">100</property>
+	<property name="hibernate.c3p0.min_size">5</property><!--在连接池中可用数据库连接的最小数目-->
+	<property name="hibernate.c3p0.max_size">50</property><!--在连接池中可用数据库连接的最大数目-->
+	<property name="hibernate.c3p0.timeout">500</property><!--设定数据库连接的超时时间-->
+	<property name="hibernate.c3p0.max_statements">20</property><!--可以被缓存的PreparedStatement的最大数目-->
+	<!-- Mapping files -->
+    <mapping resource="com/bluesky/pojo/User.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/Department.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/LogLogin.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/Log.hbm.xml" />
+<!--     <mapping resource="com/bluesky/pojo/GroupUser.hbm.xml" /> -->
+<!--     <mapping resource="com/bluesky/pojo/GroupMenu.hbm.xml" /> -->
+<!--     <mapping resource="com/bluesky/pojo/Group.hbm.xml" /> -->
+    <mapping resource="com/bluesky/pojo/Menus.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/Parameter.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/LoginInfo.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/SysInfo.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/IndUser.hbm.xml" />
+    <mapping resource="com/bluesky/pojo/IndUserLogLogin.hbm.xml" />
+</session-factory>
+</hibernate-configuration>
+
+
+
+
+

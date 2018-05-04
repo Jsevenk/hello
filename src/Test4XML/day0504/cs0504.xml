@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasource id="db_oracle">
+	  <property name="url">
+		<!-- jdbc:thin@192.168.1.18:1521:tarena -->
+		jdbc:oracle:thin:@//192.168.1.28:1521/pdborcl
+	  </property>
+	  <property name="dbUser">hzsq_creditunion</property>
+	  <property name="dbPwd">123456</property>
+</datasource>
