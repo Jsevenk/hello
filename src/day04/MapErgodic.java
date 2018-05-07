@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class test05 {
+public class MapErgodic {
 
 	public static void main(String[] args) {
 		Map<Integer,String> map = new HashMap<Integer,String>();

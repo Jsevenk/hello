@@ -1,10 +1,12 @@
 package day04;
-
+/**
+ * 加密解密
+ */
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 
-public class test08 {
+public class EncodeAndDecode {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		System.out.println("==============gbk->utf-8==============");
