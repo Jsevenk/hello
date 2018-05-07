@@ -11,6 +11,7 @@ public class test05 {
 		System.out.println("1111");
 		System.out.println("...");
 		System.out.println("Too busy");
+		System.out.println("learn sql");
 		//Socket
 //		IntBuffer     nio 的  buffer
 	}
