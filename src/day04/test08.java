@@ -29,6 +29,11 @@ public class test08 {
 		if(sessionUser.getIsadmin()==0||sessionUser.getIsadmin()==1){
 			System.out.println("========1=========");
 		}
+		
+		String kong="";
+		if(kong.length()==0){
+			System.out.println("kong:"+kong.length());
+		}
 	}
 
 }
