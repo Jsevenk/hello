@@ -1,4 +1,4 @@
-package day04;
+package demo01;
 /**
  * 加密解密
  */

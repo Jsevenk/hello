@@ -1,4 +1,4 @@
-package day04;
+package demo01;
 /**
  * 迭代器遍历map
  */
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class test04 {
+public class Iterator4Map {
 
 	public static void main(String[] args) {
 		Map<Integer,String> map=new HashMap<>();
