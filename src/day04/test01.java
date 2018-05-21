@@ -8,5 +8,6 @@ public class test01 {
 //		item.getTyp();
 		System.out.println("·Å¼Ù");
 		System.out.println("coding");
+		System.out.println("划水");
 	}
 }
