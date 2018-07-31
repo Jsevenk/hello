@@ -13,5 +13,8 @@ public class test01 {
 		System.out.println("master");
 		System.out.println("2017.11.29");
 	}
+	public void a(){
+		
+	}
 
 }
