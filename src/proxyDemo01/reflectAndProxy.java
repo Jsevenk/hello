@@ -13,12 +13,29 @@ package proxyDemo01;
  * 	这样一个没有实现任何接口的类就无法通过jdk的代理机制进行代理，
  * 	当然解决方法是使用cglib的代理机制进行代理。
  */
+//优缺点总结
+/*
+ * 优点：静态代理会产生许多重复代码，不能很好的进行代码复用，而动态代理能够很好的解决这个问题，
+ * 	代理类TransactionHandler实现了InvocationHandler接口，
+ * 	并且它持有的目标对象类型是Object，
+ * 	因此事务控制代理类TransactionHandler能够代理任意的对象，
+ * 	为任意的对象添加事务控制的逻辑。
+ * 
+ * 	因此动态代理才真正的将代码中横向切面的逻辑剥离了出来，起到代码复用的目的。
+ */
+/*
+ * 缺点：
+ * 	一是它的实现比静态代理更加复杂也不好理解；
+ * 	二是它存在一定的限制，例如它要求需要代理的对象必须实现了某个接口；
+ * 	三是它不够灵活，动态代理会为接口中的声明的所有方法添加上相同的代理逻辑。
+ */
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 public class reflectAndProxy implements InvocationHandler{
-	//需要重写方法invoke
+	//调用InvocationHandler接口,需要重写方法invoke
 	
 	
 	private Object object;
