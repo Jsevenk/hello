@@ -34,13 +34,13 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-public class reflectAndProxy implements InvocationHandler{
+public class ReflectAndProxy implements InvocationHandler{
 	//调用InvocationHandler接口,需要重写方法invoke
 	
 	
 	private Object object;
 	
-	public reflectAndProxy(Object object){
+	public ReflectAndProxy(Object object){
 		this.object=object;
 	}
 
@@ -70,7 +70,7 @@ public class reflectAndProxy implements InvocationHandler{
 		//指明被代理类实现的接口
 		Class<?>[] interfaces = s.getClass().getInterfaces();
 		// 创建被代理类的委托类,之后想要调用被代理类的方法时，都会委托给这个类的invoke(Object proxy, Method method, Object[] args)方法
-		reflectAndProxy h = new reflectAndProxy(s);
+		ReflectAndProxy h = new ReflectAndProxy(s);
 		//生成代理类
 		Person proxy = (Person)Proxy.newProxyInstance(loader, interfaces, h);
 		//通过代理类调用 被代理类的方法
